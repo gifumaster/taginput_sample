@@ -1,6 +1,6 @@
 # taginput_sample
 
-Vue3 / Vuetify
+Vue3 / Vuetify(β)
 
 参考用に抜粋したものなのでそのままでは動作しません。
 動作イメージは下のとおりです。
