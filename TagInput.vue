@@ -41,5 +41,5 @@ const remove = (text: string) => {
 
 <template>
   <TextInput v-model="text" :label="label" @change="change"></TextInput>
-  <ChipButton v-for="text in inputValue" @click="() => remove(text)">{{ text }}</ChipButton>
+  <ChipButton v-for="text in inputValue" @click="remove(text)">{{ text }}</ChipButton>
 </template>
